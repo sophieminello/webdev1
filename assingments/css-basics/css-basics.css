@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: futura;
+    background-color: rgb(255, 203, 227)
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    background: rgb(221, 162, 216)
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+nav a {
+    margin: 1rem;
+    color:lightslategrey;
+}
+
+nav a:hover {
+    color: rgb(161, 31, 31);
+}
+
+main {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 .25rem;
+}
+
+section {
+    color: white;
+    background:rgb(116, 15, 163);
+    margin: 2rem 0;
+    border-left: .5rem solid white;
+}
+
+section h3 {
+    background: rgb(63, 59, 59);
+    margin: 0;
+    padding: 1rem;
+}
+
+section p {
+    margin: 0;
+    padding: 1rem;
+
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 75%;
+    padding: 2rem;
+}
+
+h1 {
+    color:rgb(128, 0, 117);
+}
+
+h2 {
+    font-size: 18px;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    background: rgb(221, 162, 216)
+}
