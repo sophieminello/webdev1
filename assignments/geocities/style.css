@@ -1,0 +1,84 @@
+.grad {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(202,255,175,1) 0%, rgba(255,254,144,1) 100%);
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: lobster;
+    font-size: 60px;
+}
+
+nav a {
+    margin: 1rem;
+    color:rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: rgb(161, 31, 31);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: futura;
+}
+
+.img-body {
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    max-width: 75%;
+    padding: 2rem;
+}
+
+.gif-left {
+    position: absolute;
+    left: 25%;
+}
+
+.gif-right {
+    position: absolute;
+    right: 25%;
+}
+
+.break {
+    height: .5rem;
+    width: 90vw;
+    margin: 3rem;
+    background:cornflowerblue
+}
+
+.crazy {
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(https://web.archive.org/web/20091027011023/http://us.geocities.com/englishisfun_thailand/graphics/dinomail.gif)
+}
+
+.fixed {
+    position: fixed;
+    font-size: 20px;
+    padding: .5rem;
+    background-color: rgb(255, 227, 70)
+}
+
+footer {   
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    background: rgb(160, 223, 148)
+}
+
+footer p {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.border {
+    border: .5rem dotted yellowgreen;
+    padding: .5rem;
+}
