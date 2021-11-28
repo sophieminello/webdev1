@@ -1,5 +1,8 @@
 body {
-    font-family: roboto;
+    font-family: roboto thin;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
   }
   
   header {
@@ -9,23 +12,26 @@ body {
   }
   
   .site-title {
-    
+    letter-spacing: .5rem;
+    font-size: 25px;
+    padding: 2rem;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
       .site-title {
           font-size: 20px;
       }
   }
 
   .main-menu {
-    padding: 1.5rem;
-    margin: 1rem;
+    padding: 3rem;
   }
   
   .main-menu a {
-    color: grey;
+    color: rgb(87, 87, 87);
     text-decoration: none;
+    display:inline-block; 
+    margin-right:30px;
   }
   
   .main-menu a:hover {
@@ -69,3 +75,9 @@ body {
     display: grid;
     place-items: center;
   }
+
+  .image-card a {
+    color: black;
+    text-decoration: none;
+  }
+  
