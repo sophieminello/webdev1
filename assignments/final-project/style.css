@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family:futura;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: .5em;
+    position: sticky;
+    top: 0;
+    background-color: rgb(160, 206, 160)
+
+}
+
+.title {
+
+}
+
+.menu {
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: arial;
+}
+
+.welcome {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.print {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.print img {
+    height: 400px;
+}
+
+.img-title {
+    position: absolute;
+    background: rgba(185, 173, 173, 0.867);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+        
+    display: grid;
+    place-items: center;
+}
+
+.image-card {
+    position: relative;
+    transition: all .2s ease-in-out; 
+  }
+
+.image-card:hover {
+    transition: scale(1.1);
+}
+  
+.image-card:hover .img-title {
+    opacity: 1;
+  }
+
+.image-card a {
+    color: black;
+    text-decoration: none;
+  }
+
+.gif {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content img {
+    height: 200px;
+    padding: 50px;
+}
+
+p {
+   margin-left: 500px;
+   margin-right: 500px; 
+}
+
+footer {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: rgb(238, 236, 127)
+}
