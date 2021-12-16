@@ -11,14 +11,6 @@ header {
     position: sticky;
     top: 0;
     background-color: rgb(160, 206, 160)
-
-}
-
-.title {
-
-}
-
-.menu {
 }
 
 .menu a {
@@ -53,32 +45,22 @@ header {
 }
 
 .img-title {
-    position: absolute;
-    background: rgba(185, 173, 173, 0.867);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+
+    background: rgba(255, 236, 128, 0.867);
     opacity: 0;
         
     display: grid;
     place-items: center;
 }
 
-.image-card {
-    position: relative;
-  }
-
 .image-card:hover img {
-    position:relative;
-    width:400px;
-    height:auto;
-    display:block;
+    width: 400px;
+    height: auto;
+    display: block;
 }
   
 .image-card:hover .img-title {
     opacity: 1;
-    position:relative;
     width:400px;
     height:auto;
     display:block;
@@ -94,9 +76,9 @@ header {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .content img {
-        display: grid;
-        grid-template-columns: 1fr;
+
+    .image-card:hover {
+        margin: 0 auto;
     }
 }
 
@@ -106,8 +88,10 @@ header {
 }
 
 .content {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -117,13 +101,22 @@ header {
 }
 
 p {
-   margin-left: 500px;
-   margin-right: 500px; 
+   margin-left: 20%;
+   margin-right: 20%; 
+}
+
+.animation {
+    transition: 5s;
+}
+
+.animation:hover {
+    transform: rotate(360deg);
 }
 
 footer {
     padding-bottom: 100px;
     padding-top: 100px;
+    margin-top: 100px;
     background-color: rgb(238, 236, 127)
 }
 
